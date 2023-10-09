@@ -1,0 +1,28 @@
+.container{
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-color:  rgb(138, 143, 142);
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color : rgb(219, 219, 243);
+}
+
+h1{
+    text-align : center;
+    color: rgb(138, 143, 142);
+}
+.container nav{
+    width: max-content;
+}
+
+.container section{
+    padding-top: 40px;
+    flex-grow: 1;
+    padding-left: 40px;
+}
